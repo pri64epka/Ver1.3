@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context="com.example.android.ver13.SearchedMatchsActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
