@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set3US"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/truegrass"
+    android:orientation="vertical"
+    tools:context="com.example.android.ver13.AA_Set3USActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dip"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tableScoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:padding="5dp"
+            android:text="@string/match_mode_full"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/addToTableScoreTV3SetUS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/TableLayout3setUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/playerFirst3SetUSTV"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLength="24"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pointFP3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/pointFPFirstSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPSecondSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPThirdSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/playerSecond3SetUSTV"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLength="24"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pointSP3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/pointSPFirstSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPSecondSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPThirdSet3SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/undo3SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_undo"
+            android:contentDescription="@string/UNDO"
+            android:onClick="undo3SetUS"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            app:srcCompat="@drawable/ic_undo_black_24dp" />
+
+
+        <ImageButton
+            android:id="@+id/redo3SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_undo"
+            android:contentDescription="@string/REDO"
+            android:onClick="redo3SetUS"
+            app:srcCompat="@drawable/ic_redo_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/_saveButton3SetUS"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_undo"
+            android:contentDescription="@string/SGTMM"
+            android:onClick="saveAndGo3SetUS"
+            app:srcCompat="@drawable/ic_save_black_24dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/nameFirstPlayerTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_player"
+            android:gravity="center"
+            android:maxLength="24"
+            android:padding="2dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/nameSecondPlayerTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_player"
+            android:gravity="center"
+            android:maxLength="24"
+            android:padding="2dp"
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <Spinner
+            android:id="@+id/spinner1p3sUSTV"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinner2p3sUSTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/goalFP3SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/goal_button_frame"
+            android:onClick="firstPlayerGoal3SetUS"
+            android:text="@string/goal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/goalSP3SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/goal_button_frame"
+            android:onClick="secondPlayerGoal3SetUS"
+            android:text="@string/goal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/black" />
+    </TableRow>
+
+</LinearLayout>

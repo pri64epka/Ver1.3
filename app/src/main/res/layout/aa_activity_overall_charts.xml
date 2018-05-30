@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.ver13.AA_OverallChartsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/frame_to_layouts_to_charts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_winner_overall_charts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame_with_straight_bottom_angles"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/header_for_winner_overall_charts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_bcDW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingEnd="3dp"
+                android:paddingStart="3dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/_overall_winner_barChart"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingTop="8dp"
+                android:background="@drawable/frame_with_straight_upper_anges"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/_overall_winner_pieChart"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1">
+                </com.github.mikephil.charting.charts.PieChart>
+
+                <TextView
+                    android:id="@+id/_pcDW"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/frame_to_layouts_to_charts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_ace_overall_charts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/header_for_ace_overall_charts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:background="@drawable/frame_with_straight_bottom_angles"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_bcDA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingEnd="3dp"
+                android:paddingStart="3dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/_overall_aces_barChart"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingTop="8dp"
+                android:background="@drawable/frame_with_straight_upper_anges"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/_overall_aces_pieChart"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1">
+
+                </com.github.mikephil.charting.charts.PieChart>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/_pcDA"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/frame_to_layouts_to_charts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_ue_overall_charts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/header_for_ue_overall_charts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:background="@drawable/frame_with_straight_bottom_angles"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_bcDUE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingEnd="3dp"
+                android:paddingStart="3dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/_overall_ue_barChart"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingTop="8dp"
+                android:background="@drawable/frame_with_straight_upper_anges"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/_overall_ue_pieChart"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1">
+
+                </com.github.mikephil.charting.charts.PieChart>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/_pcDUE"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/frame_to_layouts_to_charts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_de_overall_charts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/header_for_de_overall_charts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:background="@drawable/frame_with_straight_bottom_angles"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/_bcDDE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingEnd="3dp"
+                android:paddingStart="3dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/_overall_de_barChart"
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:paddingTop="8dp"
+                android:background="@drawable/frame_with_straight_upper_anges"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/_overall_de_pieChart"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1">
+
+                </com.github.mikephil.charting.charts.PieChart>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/_pcDDE"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

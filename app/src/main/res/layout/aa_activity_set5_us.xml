@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_set5US"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/courthard"
+    android:orientation="vertical"
+    tools:context="com.example.android.ver13.AA_Set5USActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dip"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tableScoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:padding="5dp"
+            android:text="@string/match_mode_full"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/addToTableScoreTV5SetUS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/TableLayout3set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/playerFirst5SetUSTV"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLength="24"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pointFP5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dip"
+                android:layout_marginBottom="1dp"
+                android:layout_marginEnd="1dip"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/pointFPFirstSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPSecondSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPThirdSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPFourSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointFPFiveSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/playerSecond5SetUSTV"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLength="24"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pointSP5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:minEms="2"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/pointSPFirstSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPSecondSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPThirdSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPFourSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pointSPFiveSet5SetUSTV"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dip"
+                android:width="33dp"
+                android:background="@drawable/frame_player"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/undo5SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:background="@drawable/frame_undo"
+            android:onClick="undo5SetUS"
+            android:contentDescription="@string/UNDO"
+            app:srcCompat="@drawable/ic_undo_black_24dp"/>
+
+
+        <ImageButton
+            android:id="@+id/redo5SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/frame_undo"
+            android:onClick="redo5SetUS"
+            android:contentDescription="@string/REDO"
+            app:srcCompat="@drawable/ic_redo_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/_saveButton5SetUS"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_undo"
+            android:onClick="saveAndGo5SetUS"
+            app:srcCompat="@drawable/ic_save_black_24dp"
+            android:contentDescription="@string/SGTMM" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/nameFirstPlayerTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_player"
+            android:gravity="center"
+            android:maxLength="24"
+            android:padding="2dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/nameSecondPlayerTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_player"
+            android:gravity="center"
+            android:maxLength="24"
+            android:padding="2dp"
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <Spinner
+            android:id="@+id/spinner1p5sUSTV"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinner2p5sUSTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/goalFP5SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/goal_button_frame"
+            android:onClick="firstPlayerGoal5SetUS"
+            android:text="@string/goal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/goalSP5SetUSButton"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/goal_button_frame"
+            android:onClick="secondPlayerGoal5SetUS"
+            android:text="@string/goal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/black" />
+    </TableRow>
+
+</LinearLayout>

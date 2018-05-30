@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/trueclay"
+    tools:context="com.example.android.ver13.HelpInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/info_main_act_help_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/framenewmatch"
+        android:text="@string/info_7_1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/framenewmatch"
+        android:text="@string/info_7_2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="10dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/framenewmatch"
+        android:text="@string/info_7_3" />
+
+
+</LinearLayout>
